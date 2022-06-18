@@ -1,0 +1,845 @@
+@media(max-width: 992px) {
+    .britlex_logo {
+        max-width: 89px;
+    }
+    .nav__title-right {
+        gap: 95px;
+    }
+    .nav_link {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .nav__title {
+        padding-top: 25px;
+        padding-bottom: 68px;
+    }
+    .btn1 {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 12px 40px;
+    }
+    .header {
+        padding-bottom: 47px;
+    }
+    .header__title-left h1 {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .header_icon {
+        max-width: 59px;
+        right: 160px;
+    }
+    .header__title-left p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .btn2 {
+        font-size: 24px;
+        line-height: 36px;
+        padding: 22px 79px;
+    }
+    .header_img {
+        max-width: 460px;
+    }
+    .skills__title h2 {
+        font-size: 36px;
+        line-height: 80px;
+        padding-bottom: 53px;
+    }
+    .skills_box {
+        padding: 35px 23px 30px;
+        max-width: 303px;
+    }
+    .skills_box-bottom:nth-of-type(1) {
+        padding: 0 0px;
+    }
+    .skills_box:nth-child(1) {
+        padding: 35px 23px 31px;
+    }
+    .skills__boxs {
+        grid-template-columns: unset;
+    }
+    .skills_box-img1 {
+        max-width: 260px;
+    }
+    .skills_box-img2 {
+        max-width: 205px;
+    }
+    .skills_box-img3 {
+        max-width: 243px;
+    }
+    .skills_box-img4 {
+        max-width: 254px;
+    }
+    .skills_box-bottom h4 {
+        font-size: 22px;
+        line-height: 80px;
+    }
+    .skills_box:nth-child(1) p {
+        font-size: 14px;
+        line-height: 35px;
+    }
+    .btn3 {
+        font-size: 18px;
+        line-height: 27px;
+        padding: 16px 42px;
+    }
+    #about {
+        padding-bottom: 101px;
+    }
+    .about__title-left h3 {
+        font-size: 36px;
+        line-height: 80px;
+        padding-bottom: 13px;
+    }
+    .about__title-left p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 25px;
+    }
+    .about_img {
+        max-width: 336px;
+    }
+    .about_number span {
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .about__title-left p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about__title {
+        gap: 70px;
+    }
+    #pricing {
+        padding-bottom: 140px;
+    }
+    .pricing_title h2 {
+        font-size: 36px;
+        line-height: 80px;
+        padding-bottom: 22px;
+    }
+    .pricing_img1 {
+        max-width: 222px;
+    }
+    .pricing_img2 {
+        max-width: 267px;
+    }
+    .pricing_img3 {
+        max-width: 242px;
+    }
+    .pricing_box h3 {
+        font-size: 22px;
+        line-height: 34px;
+        padding: 20px 0 14px;
+    }
+    .pricing_box p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 29px;
+        max-width: 303px;
+    }
+    .pricing_box-bottom {
+        padding: 4 20px 4 12px;
+    }
+    .pricing_box-bottom h4 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .pricing_box-bottom span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .pricing_box:nth-child(2) p {
+        padding-bottom: 56px;
+    }
+    #contact {
+        padding-bottom: 133px;
+    }
+    .contact_title {
+        gap: 70px;
+    }
+    .contact_img {
+        max-width: 312px;
+    }
+    .contact_title-right h2 {
+        font-size: 36px;
+        line-height: 80px;
+        padding-bottom: 0;
+    }
+    .contact_title-right p {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 34px;
+    }
+    .contact_input input {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 23px 152px 16px 38px;
+    }
+    .btn4 {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 21px 56px 15px;
+    }
+    .footer_title {
+        padding-bottom: 30px;
+    }
+    .footer_title-bottom span {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media(max-width: 767px) {
+    header{
+        overflow: hidden;
+    }
+    .btn1 {
+        position: absolute;
+        height: 0;
+        width: 0;
+        border: 0;
+        top: -224px;
+    }
+    .header_menu {
+        max-width: 30px;
+        right: 0;
+    }
+    .header_checkbox {
+        position: absolute;
+        max-width: 30px;
+        height: 18px;
+        right: 0;
+        width: 32px;
+    }
+    .header_checkbox:checked + .nav__links {
+        height: 373px;
+        width: 300px;
+        display: block;
+        /* border: 1px solid transparent;
+        border-radius: 10px;
+        background: #263238;
+        color: white; */
+    }
+    .nav__links {
+        position: absolute;
+        right: 12px;
+        top: 0px;
+        height: 0;
+        width: 0;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        display: block;
+        background: #263238;
+        z-index: 999;
+        color: white;
+        transition: 0.3s linear;
+        overflow: hidden;
+    }
+    .nav_link {
+        color: white;
+        margin: 20px;
+        padding: 10px;
+        display: block;
+        border-radius: 15px;
+        border: .2rem solid rgb(0, 0, 0, .1);
+        cursor: pointer;
+    }
+    .nav_link {
+        text-align: center;
+        background: white;
+        color: #263238;
+    }
+    .header__title-left h1{
+        font-size: 36px;
+        line-height: 45px;
+        max-width: 217px;
+        padding-bottom: 25px;
+    }
+    .header_icon {
+        right: 115px;
+    }
+    .header__title-left p {
+        padding-bottom: 32px;
+        font-size: 16px;
+        line-height: 24px;  
+    }
+    .btn2 {
+        padding: 19px 67px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .header_img {
+        max-width: 352px;
+    }
+    .skills__title h2 {
+        font-size: 30px;
+        line-height: 80px;
+        padding-bottom: 37px;
+    }
+    .skills_box {
+        max-width: 224px;
+    }
+    .skills_box-img1{
+        max-width: 214px;
+    }
+    .skills_box-img2{
+        max-width: 205px;
+    }
+    .skills_box-img3{
+        max-width: 243px;
+    }
+    .skills_box-img4{
+        max-width: 254px;
+    }
+    .skills_box:nth-child(1) {
+        padding: 15px;
+    }
+    .skills_box-bottom h4{
+        font-size: 20px;
+        line-height: 80px;
+    }
+    .skills_box:nth-child(1) p{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .btn3 {
+        font-size: 16px;
+        line-height: 24px;
+        padding: 14px 42px;
+    }
+    .skills__boxs {
+        gap: 10px
+    }
+    .skills_box {
+        padding: 15px;
+    }
+    .skills_box:nth-child(1) p {
+        line-height: 39px;
+    }
+    #skills {
+        padding-bottom: 52px;
+    }
+    #about {
+        padding-top: 0px;
+    }
+    .about__title-left h3 {
+        padding-bottom: 0px;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .about__title-left p{
+        padding-bottom: 0;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about_img {
+        max-width: 295px;
+    }
+    .about {
+        padding-bottom: 93px;
+    }
+    .pricing_title h2 {
+        font-size: 30px;
+        line-height: 80px;
+        padding-bottom: 25px;
+    }
+    .pricing_img1{
+        max-width: 197px;
+    }
+    .pricing_img2{
+        max-width: 219px;
+    }
+    .pricing_img3{
+        max-width: 210px;
+    }
+    .pricing_box h3 {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 31px 0 15px;
+    }
+    .pricing_box p {
+        max-width: 200px;
+        font-size: 14px;
+        line-height: 21px;
+        padding-bottom: 23px;
+    }
+    .pricing_box-bottom h4{
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .pricing_box-bottom span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #pricing {
+        padding-bottom: 65px;
+    }
+    .contact_img {
+        max-width: 233px;
+    }
+    .contact_title {
+        gap: 15px;
+    }
+    .contact_title-right h2{
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .contact_title-right p{
+        font-size: 14px;
+        line-height: 21px;
+        padding-bottom: 26px;
+    }
+    .contact_input input {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 16px 152px 16px 24px;
+    }
+    .contact_input {
+        gap: 6px;
+    }
+    .btn4 {
+        font-size: 13px;
+        line-height: 19px;
+        padding: 15px 40px 15px;
+    }
+}
+@media(max-width: 575px){
+    .header {
+        padding-bottom: 185px;
+    }
+    .header_img {
+        max-width: 424px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .nav__title {
+        padding-top: 39px;
+        padding-bottom: 11px;
+    }
+    .header__title{
+        position: relative;
+        padding-bottom: 30px;
+    }
+    .header__title-left {
+        position: absolute;
+        bottom: -183px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .header_icon {
+        /* right: 115px; */
+        max-width: 0;
+    }
+    .header__title-left h1 {
+        font-size: 34px;
+        line-height: 45px;
+        max-width: fit-content;
+    }
+    .header__title-left p {
+        padding-bottom: 37px;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .btn2 {
+        padding: 24px 101px;
+        font-size: 18px;
+        line-height: 27px;
+        border-radius: 5px;
+    }
+    #skills {
+        padding-top: 96px;
+        padding-bottom: 140px;
+    }
+    .skills__title h2 {
+        font-size: 30px;
+        line-height: 80px;
+        padding-bottom: 34px;
+    }
+    .skills__boxs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .skills_box-img1{
+        max-width: 185px;
+    }
+    .skills_box-img2{
+        max-width: 182px;
+    }
+    .skills_box-img3{
+        max-width: 198px;
+    }
+    .skills_box-img4{
+        max-width: 206px;
+    }
+    .skills_box:nth-child(1) p {
+        padding-bottom: 6px;
+    }
+    .skills_box:nth-child(4){
+        display: block;
+        align-items: center;
+        position: relative;
+    }
+    .skills_box:nth-child(4) .skills_box-bottom{
+        position: absolute;
+        bottom: 20px;
+    }
+    .skills_box-bottom p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .skills_box:nth-child(1) p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .skills_box {
+        max-width: 240px;
+        height: 534px;
+    }
+    .skills_box-bottom p {
+        padding-bottom: 112px;
+    }
+    .about__title {
+        gap: unset;
+        position: relative;
+        padding-bottom: 200px;
+    }
+    .about__title-left{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        bottom: 0;
+    }
+    .about_img {
+        max-width: 352px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .about__title-left h3{
+        position: absolute;
+        top: -405px;
+        font-size: 30px;
+        line-height: 80px;
+    }
+    .about__title-left p{
+        text-align: center;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about_numbers {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .about_number span {
+        font-size: 24px;
+        line-height: 80px;
+    }
+    .about__title-left p{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #about {
+        padding-bottom: 100px;
+    }
+    #pricing {
+        padding-bottom: 163px;
+    }
+    .pricing_title h2{
+        font-size: 30px;
+        line-height: 80px;
+        padding-bottom: 54px;
+    }
+    .pricing_boxs {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 70px;
+    }
+    .pricing_img1{
+        max-width: 291px;
+        padding-bottom: 29px;
+    }
+    .pricing_img2{
+        max-width: 314px;
+        padding-bottom: 21px;
+    }
+    .pricing_img3{
+        max-width: 253px;
+        padding-bottom: 15px;
+    }
+    .pricing_box h3{
+        padding-top: 0;
+        padding-bottom: 20px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .pricing_box p {
+        max-width: 415px;
+        font-size: 14px;
+        line-height: 21px;
+        padding-bottom: 30px;
+    }
+    .pricing_box-bottom{
+        margin: 0 auto;
+        padding: 5px 17px;
+    }
+    .pricing_box-bottom h4 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+    .pricing_box-bottom span{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .pricing_box:nth-child(2) p {
+        padding-bottom: 30px;
+    }
+    .contact_title {
+        gap: 15px;
+        flex-direction: column;
+        position: relative;
+        text-align: center;
+        padding-top: 130px;
+    }
+    .contact_title-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact_title-right h2 {
+        font-size: 30px;
+        line-height: 80px;
+        position: absolute;
+        top: 0;
+    }
+    .contact_img {
+        max-width: 358px;
+    }
+    .contact_title-right p{
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 60px;
+    }
+    .contact_input {
+        gap: unset;
+    }
+    .contact_input input{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .footer_title-bottom {
+        padding-top: 24px;
+    }    
+    .footer_title-bottom span {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+@media(max-width: 320px){
+    .header {
+        padding-bottom: 330px;
+    }
+    .britlex_logo {
+        max-width: 71px;
+    }
+    .nav__title {
+        padding-top: 36px;
+        padding-bottom: 29px;
+    }
+    .nav_link {
+        margin: 10px;
+        padding: 5px;
+    }
+    .header_checkbox:checked + .nav__links {
+        height: 265px;
+        width: 200px;
+    }
+    .header__title {
+        padding-bottom: 0;
+    }
+    .header_img {
+        max-width: 299px;
+    }    
+    .header__title-left {
+        bottom: -330px;
+        text-align: center;
+    }
+    .header__title-left h1{
+        font-size: 24px;
+        line-height: 36px;
+        padding-bottom: 20px;
+    }
+    .header__title-left p {
+        padding-bottom: 35px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .btn2{
+        font-size: 16px;
+        line-height: 24px;
+        padding: 18px 90px;
+    }
+    #skills {
+        padding-top: 51px;
+    }
+    .skills__title h2 {
+        font-size: 24px;
+        line-height: 80px;
+        padding-bottom: 32px;
+    }
+    .skills_box {
+        max-width: 280px;
+        height: 570px;
+    }
+    .skills_box-img1 {
+        max-width: 213px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .skills_box-img2 {
+        max-width: 204px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .skills_box-img3 {
+        max-width: 236px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .skills_box-img4 {
+        max-width: 232px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .skills_box-bottom h4{
+        font-size: 18px;
+        line-height: 80px;
+    }
+    .skills_box:nth-child(1) p{
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .btn3{
+        font-size: 14px;
+        line-height: 21px;
+        padding: 14px 43px;
+    }
+    .about__title-left h3 {
+        top: -405px;
+        padding-top: 50px;
+        font-size: 24px;
+        line-height: 80px;
+    }
+    .about_img {
+        max-width: 283px;
+    }
+    .about__title {
+        padding-bottom: 375px;
+    }
+    .about__title-left {
+        bottom: -90px;
+    }
+    .about__title-left p{
+        font-size: 13px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .about_numbers{
+        display: block;
+    }
+    .pricing_boxs {
+        gap: 63px;
+    }
+    .pricing_title{
+        padding-top: 80px;
+    }
+    .pricing_title h2 {
+        font-size: 24px;
+        line-height: 80px;
+        padding-bottom: 49px;
+    }
+    .pricing_img1{
+        max-width: 248px;
+    }
+    .pricing_img2{
+        max-width: 257px;
+    }
+    .pricing_img3{
+        max-width: 241px;
+    }
+    .pricing_box h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .pricing_box p {
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .pricing_box-bottom h4{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .pricing_box-bottom span{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #pricing {
+        padding-bottom: 72px;
+    }
+    .contact_title-right h2{
+        font-size: 24px;
+        line-height: 80px;
+    }
+    .contact_title {
+        padding-top: 100px;
+    }
+    .contact_img {
+        max-width: 253px;
+    }
+    .contact_title-right p{
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        max-width: 300px;
+    }
+    .contact_input{
+        display: block;
+    }
+    .contact_input input {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 16px 120px 16px 26px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+    .btn4 {
+        font-size: 14px;
+        line-height: 21px;
+        padding: 20px 115px 20px;
+        border-radius: 5px;
+    }
+    #contact {
+        padding-bottom: 57px;
+    }
+    .footer_title-bottom {
+        padding-top: 40px;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .footer_title-bottom span{
+        font-size: 11px;
+        line-height: 16px;
+    }
+}
